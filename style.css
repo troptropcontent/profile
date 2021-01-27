@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+body {
+  background-color: #fcf8ec;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.card {
+  background-color: #f6f5f5;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+}
+h1{
+  color: #456268;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: #fcf8ec;
+  background-color: #79a3b1;
+  border-radius: 6%;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+a:hover{
+  color: #fcf8ec;
+  background-color: #456268;
+}
+
+h2{
+  color: #79a3b1
+}
+
+ul.inline { 
+  padding-left: 0px;
+}
+
+.inline li { 
+  display:inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
